@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FitX canvas base: deep obsidian for AMOLED — eliminates white flash on launch -->
+    <color name="canvas_base">#0A0D14</color>
+	<color name="ic_launcher_background">#0A0D14</color>
+</resources>

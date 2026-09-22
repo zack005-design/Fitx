@@ -1,0 +1,83 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/android/key.properties
+*.jks
+*.keystore
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Local analysis output and one-off repair scripts
+/analyze*.txt
+/run_log.txt
+/test_output.txt
+/fix_*.py
+/rewrite_*.py
+__pycache__/
+
+# Personal data, secrets, and machine-specific configuration
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+/android/local.properties
+/android/.kotlin/
+/android/build/
+/test/failures/
+
+# Keep written design references and linked audit images; omit raw dumps
+/.stitch-reference/**
+!/.stitch-reference/stitch_bevel_fitness_app_ui/
+!/.stitch-reference/stitch_bevel_fitness_app_ui/sanctuary_vitality/
+!/.stitch-reference/stitch_bevel_fitness_app_ui/sanctuary_vitality/DESIGN.md
+/artifacts/*
+!/artifacts/ui-audit/
+/artifacts/ui-audit/*
+!/artifacts/ui-audit/README.md
+!/artifacts/ui-audit/*.png
+/artifacts/ui-audit/22b_profile_wait.png

@@ -1,0 +1,99 @@
+name: fitx
+description: FitX - Your personal health intelligence app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Health Connect
+  health: ^13.3.2
+
+  # State management
+  flutter_riverpod: ^3.4.3
+  riverpod_annotation: ^4.0.7
+
+  # Navigation
+  go_router: ^18.0.1
+
+  # Local database
+  sqflite: ^2.4.4
+  path: ^1.9.0
+
+  # Charts
+  fl_chart: ^1.2.0
+
+  # Animations
+  lottie: ^3.3.1
+
+  # Notifications
+  flutter_local_notifications: ^22.3.0
+  timezone: ^0.11.1
+
+  # Barcode scanner
+  mobile_scanner: ^7.4.1
+
+  # Shared prefs
+  shared_preferences: ^2.3.3
+
+  # Permissions
+  permission_handler: ^13.0.2
+
+  # Utils
+  intl: ^0.20.3
+  uuid: ^4.5.1
+  equatable: ^2.0.5
+  collection: ^1.19.1
+  crypto: ^3.0.7
+  shimmer: ^4.0.0
+  workmanager: ^0.10.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.16.1
+  riverpod_generator: ^4.0.9
+  flutter_launcher_icons: ^0.14.3
+  sqflite_common_ffi: ^2.4.3
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/images/app_logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0A0D14"
+  adaptive_icon_foreground: "assets/images/app_logo_foreground.png"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter.ttf
+          weight: 400
+        - asset: assets/fonts/Inter.ttf
+          weight: 500
+        - asset: assets/fonts/Inter.ttf
+          weight: 600
+        - asset: assets/fonts/Inter.ttf
+          weight: 700
+        - asset: assets/fonts/Inter.ttf
+          weight: 800
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit.ttf
+          weight: 400
+        - asset: assets/fonts/Outfit.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit.ttf
+          weight: 700
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/data/

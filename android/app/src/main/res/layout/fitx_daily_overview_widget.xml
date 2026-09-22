@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fitx_widget_background">
+
+    <TextView
+        android:id="@+id/widget_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open FitX to sync"
+        android:textColor="#FF94A3B8"
+        android:textSize="12sp"
+        android:fontFamily="sans"
+        android:letterSpacing="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recovery" android:textColor="#FF79B995" android:textSize="12sp" />
+            <TextView android:id="@+id/widget_recovery_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:textColor="#FFF8FAFC" android:textSize="24sp" android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sleep" android:textColor="#FF9DA3C9" android:textSize="12sp" />
+            <TextView android:id="@+id/widget_sleep_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:textColor="#FFF8FAFC" android:textSize="24sp" android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Strain" android:textColor="#FFD39A70" android:textSize="12sp" />
+            <TextView android:id="@+id/widget_strain_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:textColor="#FFF8FAFC" android:textSize="24sp" android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

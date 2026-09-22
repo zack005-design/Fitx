@@ -1,0 +1,5 @@
+# Copy to android/key.properties and keep the real file private.
+storePassword=replace-with-a-strong-private-password
+keyPassword=replace-with-a-strong-private-password
+keyAlias=fitx-personal
+storeFile=../private/fitx-personal-upload.jks
